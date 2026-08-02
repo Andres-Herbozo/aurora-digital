@@ -89,7 +89,7 @@ Formulario web
 ├── prompts/
 │   ├── clasificacion.md
 │   └── redaccion-propuesta.md
-└── evidencias/                        Screenshots de los 5 tests
+└── screenshots/                        Screenshots de los 5 tests
 ```
 
 ---
