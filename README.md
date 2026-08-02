@@ -72,7 +72,7 @@ Formulario web
 - Base de datos en modo lectura: [Embudo de leads](https://airtable.com/appdkQ1zI3fufTsuH/shrdTWxVYHFyoRbcg)
 - Dashboard · Pipeline (Kanban): https://airtable.com/appdkQ1zI3fufTsuH/shrLFhQ4dUVYqRUoA
 - Dashboard · Errores y tasa de fallos: https://airtable.com/appdkQ1zI3fufTsuH/shrjZ9A6y6Cmlr7jn
-- Video demo (3 min): 
+- Video demo (3 min): https://drive.google.com/file/d/1cAz6w5jcNkErGr_6aa5oEr_RGD5MhU6d/view?usp=sharing
 
 ---
 
