@@ -1,1 +1,1 @@
-# aurora-automation
+# aurora-digital
