@@ -1,0 +1,202 @@
+{
+  "name": "Aurora · 03 Manejador de errores",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.errorTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "6bed6482-262e-4b8f-8f06-1b199c6fbb01",
+      "name": "Error Trigger"
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "base": {
+          "__rl": true,
+          "value": "appdkQ1zI3fufTsuH",
+          "mode": "list",
+          "cachedResultName": "Aurora - Sistema de Leads",
+          "cachedResultUrl": "https://airtable.com/appdkQ1zI3fufTsuH"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tblkqUmePBeilQaED",
+          "mode": "list",
+          "cachedResultName": "Logs de error",
+          "cachedResultUrl": "https://airtable.com/appdkQ1zI3fufTsuH/tblkqUmePBeilQaED"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Nodo": "={{ $json.execution.lastNodeExecuted }}",
+            "Tipo de error": "Otro",
+            "Mensaje de error": "={{ $json.execution.error.message }}",
+            "Payload": "={{ JSON.stringify($json.execution.data).substring(0, 5000) }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "ID error",
+              "displayName": "ID error",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "string",
+              "readOnly": true,
+              "removed": true
+            },
+            {
+              "id": "Timestamp",
+              "displayName": "Timestamp",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "string",
+              "readOnly": true,
+              "removed": true
+            },
+            {
+              "id": "Lead relacionado",
+              "displayName": "Lead relacionado",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "array",
+              "readOnly": false,
+              "removed": true
+            },
+            {
+              "id": "Nodo",
+              "displayName": "Nodo",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "Tipo de error",
+              "displayName": "Tipo de error",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "options",
+              "options": [
+                {
+                  "name": "API IA",
+                  "value": "API IA"
+                },
+                {
+                  "name": "Datos faltantes",
+                  "value": "Datos faltantes"
+                },
+                {
+                  "name": "Airtable",
+                  "value": "Airtable"
+                },
+                {
+                  "name": "Slack",
+                  "value": "Slack"
+                },
+                {
+                  "name": "Gmail",
+                  "value": "Gmail"
+                },
+                {
+                  "name": "Otro",
+                  "value": "Otro"
+                }
+              ],
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "Mensaje de error",
+              "displayName": "Mensaje de error",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "Payload",
+              "displayName": "Payload",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.2,
+      "position": [
+        208,
+        0
+      ],
+      "id": "ba490c96-3dce-44aa-a741-e7a640799cd5",
+      "name": "Registrar error global",
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "U0zDGKe8O4Hu5sXI",
+          "name": "Airtable - Aurora"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Error Trigger": {
+      "main": [
+        [
+          {
+            "node": "Registrar error global",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "ee58c1cc-9d12-421c-9aba-4a3a5fa74ef6",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "ac910cacc7639e8777cd5c6bb33df25933e3f6b2a8473b5a88ad8891a3d3df44"
+  },
+  "nodeGroups": [],
+  "id": "Fei7DdpM9NEzfhEC",
+  "tags": [
+    {
+      "updatedAt": "2026-08-02T04:26:39.642Z",
+      "createdAt": "2026-08-02T04:26:39.642Z",
+      "id": "8swpg12qYebMB5El",
+      "name": "aurora"
+    }
+  ]
+}
