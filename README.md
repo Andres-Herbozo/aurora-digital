@@ -5,8 +5,8 @@
 Sistema autónomo de calificación de leads y generación de propuestas comerciales, con
 validación humana antes del contacto con el cliente.
 
-**Proyecto final — [Nombre del curso]**
-Autor: Andrés Herbozo · [Mes] 2026
+**Proyecto final — AI Automation Coderhouse**
+Autor: Andrés Herbozo · Agosto 2026
 
 ---
 
@@ -72,7 +72,7 @@ Formulario web
 - Base de datos en modo lectura: [Embudo de leads](https://airtable.com/appdkQ1zI3fufTsuH/shrdTWxVYHFyoRbcg)
 - Dashboard · Pipeline (Kanban): https://airtable.com/appdkQ1zI3fufTsuH/shrLFhQ4dUVYqRUoA
 - Dashboard · Errores y tasa de fallos: https://airtable.com/appdkQ1zI3fufTsuH/shrjZ9A6y6Cmlr7jn
-- Video demo (3 min): PENDIENTE
+- Video demo (3 min): 
 
 ---
 
