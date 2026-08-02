@@ -80,7 +80,7 @@ Formulario web
 
 ```
 ├── docs/
-│   ├── documentacion-proyecto.pdf     Documento principal (4 secciones)
+│   ├── documentacion-proyecto.pdf     Documento principal
 │   └── diagrama-arquitectura.png
 ├── workflows/
 │   ├── 01-clasificacion-leads.json    Flujo principal
