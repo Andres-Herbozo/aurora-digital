@@ -62,10 +62,10 @@ Formulario web
 
 | # | Criterio de la rúbrica | Dónde está |
 |---|---|---|
-| 1 | Mapa de arquitectura | [`docs/documentacion-proyecto.pdf`](docs/) — sección 1 |
-| 2 | Estructuras de datos documentadas | [`docs/documentacion-proyecto.pdf`](docs/) — sección 2 |
-| 3 | Matriz de costos por modelo | [`docs/documentacion-proyecto.pdf`](docs/) — sección 3 |
-| 4 | Seguridad y resiliencia | [`docs/documentacion-proyecto.pdf`](docs/) — sección 4 |
+| 1 | Mapa de arquitectura | [`docs/documentacion-proyecto.pdf`](docs/documentacion-proyecto.pdf) — sección 1 |
+| 2 | Estructuras de datos documentadas | [`docs/documentacion-proyecto.pdf`](docs/documentacion-proyecto.pdf) — sección 2 |
+| 3 | Matriz de costos por modelo | [`docs/documentacion-proyecto.pdf`](docs/documentacion-proyecto.pdf)— sección 3 |
+| 4 | Seguridad y resiliencia | [`docs/documentacion-proyecto.pdf`](docs/documentacion-proyecto.pdf) — sección 4 |
 | 5 | Dashboard de control | [Vista pública →](https://airtable.com/appdkQ1zI3fufTsuH/shrdTWxVYHFyoRbcg) |
 
 **Enlaces:**
